@@ -1,3 +1,6 @@
-<*.ml>: use_netstring, use_ulex
-
-
+# OASIS_START
+# DO NOT EDIT (digest: b19ec5bd314630a71bc43a7342a542bf)
+# Library dehtml
+<*.ml{,i}>: pkg_ulex
+<*.ml{,i}>: pkg_netstring
+# OASIS_STOP

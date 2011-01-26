@@ -1,0 +1,21 @@
+OASISFormat: 0.2
+Name:        dehtml
+Version:     0.1
+Synopsis:    Wrapper for Ocamlnet's HTML parser to protuce plain text
+Authors:     Anastasia Gornostaeva
+License:     BSD3
+LicenseFile: LICENCE
+Plugins:     DevFiles (0.2), META (0.2), StdFiles (0.2)
+BuildTools:  ocamlbuild
+
+Library dehtml
+  Path:       .
+  Modules:    Dehtml
+  InternalModules: Rlex1, Rlex2
+  BuildDepends: netstring, ulex
+
+SourceRepository github
+  Type:     git
+  Location: git://github.com/ermine/dehtml.git
+  Browser:  https://github.com/ermine/dehtml
+  

@@ -1,0 +1,5 @@
+(* OASIS_START *)
+(* DO NOT EDIT (digest: ebeb8db4dff432dec9d8da257eb8e028) *)
+Authors of dehtml
+Anastasia Gornostaeva
+(* OASIS_STOP *)
