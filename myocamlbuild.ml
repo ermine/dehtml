@@ -1,5 +1,5 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: 23636a21c4597a16450e5b7ed4b960ac) *)
+(* DO NOT EDIT (digest: b12c8ce035153711e622b5506a2e469a) *)
 module OASISGettext = struct
 # 21 "/usr/home/ermine/projects/ocaml/src/oasis/src/oasis/OASISGettext.ml"
   
@@ -450,7 +450,8 @@ end
 
 open Ocamlbuild_plugin;;
 let package_default =
-  {MyOCamlbuildBase.lib_ocaml = [("dehtml", [])]; lib_c = []; flags = []; }
+  {MyOCamlbuildBase.lib_ocaml = [("erm_dehtml", [])]; lib_c = []; flags = []; 
+  }
   ;;
 
 let dispatch_default = MyOCamlbuildBase.dispatch_default package_default;;

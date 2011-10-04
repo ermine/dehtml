@@ -1,6 +1,6 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: 8f019a1ec6de631123713ceab68059dc) *)
-This is the README file for the dehtml distribution.
+(* DO NOT EDIT (digest: fcff0d347c75b9287d46b71b19d63328) *)
+This is the README file for the erm_dehtml distribution.
 
 Wrapper for Ocamlnet's HTML parser to protuce plain text
 

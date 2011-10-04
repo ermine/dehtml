@@ -1,6 +1,6 @@
 (* OASIS_START *)
-(* DO NOT EDIT (digest: e924d07cb20ad20b31cfeeac905df64d) *)
-This is the INSTALL file for the dehtml distribution.
+(* DO NOT EDIT (digest: 7842c74ba17cd199c341eb39dd5f5d52) *)
+This is the INSTALL file for the erm_dehtml distribution.
 
 This package uses OASIS to generate its build system. See section OASIS for
 full information. 

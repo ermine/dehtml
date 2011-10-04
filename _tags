@@ -1,6 +1,6 @@
 # OASIS_START
-# DO NOT EDIT (digest: b19ec5bd314630a71bc43a7342a542bf)
-# Library dehtml
+# DO NOT EDIT (digest: 21c97244277a7c58eac6cb1123a6c7fd)
+# Library erm_dehtml
 <*.ml{,i}>: pkg_ulex
 <*.ml{,i}>: pkg_netstring
 # OASIS_STOP
