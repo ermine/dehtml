@@ -1,6 +1,6 @@
-(*                                                                          *)
-(* (c) 2006 Anastasia Gornostaeva. <ermine@ermine.pp.ru>                    *)
-(*                                                                          *)
+(*
+ * (c) 2006 Anastasia Gornostaeva
+ *)
 
 {
    type subst_t =
