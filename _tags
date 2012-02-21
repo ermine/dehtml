@@ -1,5 +1,18 @@
 # OASIS_START
-# DO NOT EDIT (digest: 21c97244277a7c58eac6cb1123a6c7fd)
+# DO NOT EDIT (digest: a262becaadcf8a8d3cfcabbe43f9a864)
+# Ignore VCS directories, you can use the same kind of rule outside 
+# OASIS_START/STOP if you want to exclude directories that contains 
+# useless stuff for the build process
+<**/.svn>: -traverse
+<**/.svn>: not_hygienic
+".bzr": -traverse
+".bzr": not_hygienic
+".hg": -traverse
+".hg": not_hygienic
+".git": -traverse
+".git": not_hygienic
+"_darcs": -traverse
+"_darcs": not_hygienic
 # Library erm_dehtml
 <*.ml{,i}>: pkg_ulex
 <*.ml{,i}>: pkg_netstring

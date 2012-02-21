@@ -1,7 +1,7 @@
 OASISFormat: 0.2
 Name:        erm_dehtml
 Version:     0.1
-Synopsis:    Wrapper for Ocamlnet's HTML parser to protuce plain text
+Synopsis:    Wrapper for Ocamlnet's HTML parser to produce plain text
 Authors:     Anastasia Gornostaeva
 License:     BSD3
 LicenseFile: LICENCE
