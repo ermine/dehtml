@@ -1,10 +1,12 @@
 # OASIS_START
-# DO NOT EDIT (digest: ad4cd33029da512886fae1b38b933b07)
+# DO NOT EDIT (digest: 6eb89356e1a295e43fb5e6752ed0b569)
 version = "0.1"
 description = "Wrapper for Ocamlnet's HTML parser to produce plain text"
 requires = "netstring ulex"
 archive(byte) = "erm_dehtml.cma"
+archive(byte, plugin) = "erm_dehtml.cma"
 archive(native) = "erm_dehtml.cmxa"
+archive(native, plugin) = "erm_dehtml.cmxs"
 exists_if = "erm_dehtml.cma"
 # OASIS_STOP
 
